@@ -1,12 +1,18 @@
 <!--where you would setup account info-->
 <!DOCTYPE html>
 <html style="background:#A1E3F9">
+<html lang="en"></html>
 	<head>
 		<meta charset="UTF-8">
 		<link
 			rel="stylesheet"
 			href="./formatting.css"
 		/>
+
+		<!--Commented out to prevent from going directly to results page after clicking Confirm
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Form</title>-->
 		<title>website.setup</title>
 	</head>
 
@@ -60,13 +66,14 @@
 						required
 					/>
 				</p>
-			</form>
 	
 				<!--Button to go to Allergies and Dietary restrictions section-->
 				<div class="specialBody">
-					<button type="submit">
-						<a href="./userSetupPage2.html">Confirm</a>
-					</button>
+					<button type="submit" 
+          			  onclick="location.href='./userSetupPage2.html'">
+          			  Confirm</a>
+        			</button>
 				</div>
+				</form>
 			</div>
 	</body>

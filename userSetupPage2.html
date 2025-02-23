@@ -1,12 +1,17 @@
 <!--Where you would list allergies and dietary restrictions-->
 <!DOCTYPE html>
 <html style="background:#A1E3F9">
+<html lang="en"></html>
 	<head>
 		<meta charset="UTF-8">
 		<link
 			rel="stylesheet"
 			href="./formatting.css"
 		/>
+        <!--Commented out to prevent from going directly to results page after clicking submit
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Form</title>-->
 		<title>website.setup</title>
 	</head>
 
@@ -48,10 +53,11 @@
               <input type="checkbox" name="halal" id="halal">
           </p>
         </div>
-      </form>
 
-      <button type="submit">
-        <a href="./website.html">Confirm</a>
-      </button>
+        <button type="submit" 
+          onclick="location.href='./website.html'">
+          Confirm</a>
+        </button>
+      </form>
 
     </body>
