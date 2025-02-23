@@ -1,6 +1,7 @@
 /*This is how we do formatting*/
 h1
 {
+	padding: 20px;
 	color:#0f74ac;
 	background-color:#FBFBFB;
 	font-weight: bold;
@@ -9,6 +10,66 @@ h1
 	text-align: center;
 }
 
+p.inBox
+{
+	text-align: center;
+}
+
+.specialBody
+{
+	color:#0f74ac;
+	background-color:#FBFBFB;
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+}
+
+.aboveBox
+{
+	position: fixed;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -100%);
+	margin: 20px;
+}
+
+.box
+{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -75%);
+	width: 400px;
+	height: 200px;
+	background-color:#FBFBFB;
+	padding: 20px;
+	margin: 20px;
+	border-radius: 20px;
+}
+
+.belowBox
+{
+	position: fixed;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -125%);
+	margin: 20px;
+}
+
+.selectionTitle
+{
+	color:#0f74ac;
+	background-color:#FBFBFB;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	width: 200px;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.selection
+{
+	font-family: "Roboto", sans-serif;
+}
 #login
 {
 	text-align: center;

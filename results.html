@@ -1,3 +1,21 @@
-<!--results #1-->
-<!--What I was thinking was that the results button could link to this and just have text here like
-'If your patient has a severe peanut allergy, you need to properly quarantine the area and yadda yadda yadda-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,
+  initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Results</title>
+</head>
+<body>
+  <div id="results"></div>
+  <a href="/">Back to Form</a>
+  <script>
+    const resultsList = document.getElementById('results')
+    new URLSearchParams(window.location.search).forEach((value, name) => {
+      resultsList.append(`${name}: ${value}`)
+      resultsList.append(document.createElement('br'))
+    }) 
+  </script>
+</body>
+</html>

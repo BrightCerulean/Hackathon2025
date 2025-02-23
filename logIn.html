@@ -12,12 +12,68 @@
 	</head>
 	
 	<body>
+		<div class="aboveBox">
 		<h1>Log in</h1>
+	</div>
 		
-		<input type="text">
+		<!--Inputting information to Log in-->
+		<div class="box">
 		
-		<p id="login">
-			<a href="./website.html">Log in</a>
+			<form action="results.html" method="GET">
+			<p class="inBox">
+				<input
+					name="firstName"
+					type="text"
+					id="firstName"
+					placeholder="Enter First Name"
+					required
+				/>
+			</p>
+		
+			<p class="inBox">
+				<input
+					name="lastName"
+					type="text"
+					id="lastName"
+					placeholder="Enter Last Name"
+					required
+				/>
+			</p>
+				
+			<p class="inBox">
+				<input
+					name="password"
+					type="email"
+					id="email"
+					placeholder="Enter your email"
+					required
+				/>
+			</p>
+		
+			<p class="inBox">
+				<input
+					name="password"
+					type="password"
+					id="loginPassword"
+					class="form-control mt-3"
+					placeholder="Enter your password"
+					required
+				/>
+			</p>
+			</form>
+
+			<div class="specialBody">
+				<button type="submit">
+					<a href="./website.html">Log in</a>
+				</button>
+			</div>
+		</div>
+		
+		<div class="belowBox">
+		<p id="setup">
+			<a href="./userSetupPage1.html">Don’t have an account?</a>
 		</p>
+		</div>
+		
 	</body>
 </html>

@@ -1,0 +1,55 @@
+<!--Where you would list allergies and dietary restrictions-->
+<!DOCTYPE html>
+<html style="background:#A1E3F9">
+	<head>
+		<meta charset="UTF-8">
+		<link
+			rel="stylesheet"
+			href="./formatting.css"
+		/>
+		<title>website.setup</title>
+	</head>
+
+    <body>
+      <h1>Select what applies to you</h1>
+      
+      <div class="selectionTitle">Allergies</div>
+
+      <form action="results.html" method="GET">
+        <div class="selection">
+          <p>
+              <label for="peanuts">Peanuts</label>
+              <input type="checkbox" name="peanuts" id="peanuts">
+            <br>
+              <label for="shellfish">Shellfish</label>
+              <input type="checkbox" name="shellfish" id="shellfish">
+            <br>
+              <label for="gluten">Gluten</label>
+              <input type="checkbox" name="gluten" id="gluten">
+            <br>
+              <label for="milk">Milk</label>
+              <input type="checkbox" name="milk" id="milk">
+          </p>
+        </div>
+
+        <div class="selectionTitle">Other</div>
+
+        <div class="selection">
+          <p>
+              <label for="vegetarian">Vegetarian</label>
+              <input type="checkbox" name="vegetarian" id="vegetarian">
+            <br>
+              <label for="vegan">Vegan</label>
+              <input type="checkbox" name="vegan" id="vegan">
+            <br>
+              <label for="halal">Halal</label>
+              <input type="checkbox" name="halal" id="halal">
+          </p>
+        </div>
+      </form>
+
+      <button type="submit">
+        <a href="./website.html">Confirm</a>
+      </button>
+
+    </body>
